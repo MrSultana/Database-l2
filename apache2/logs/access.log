@@ -1,0 +1,4 @@
+::1 - - [24/Aug/2020:09:47:33 +1200] "GET / HTTP/1.1" 200 259
+::1 - - [24/Aug/2020:09:47:36 +1200] "GET /site_template/ HTTP/1.1" 200 1449
+::1 - - [24/Aug/2020:09:47:36 +1200] "GET /site_template/css/data_style.css HTTP/1.1" 200 2368
+::1 - - [24/Aug/2020:09:47:36 +1200] "GET /site_template/images/logo.png HTTP/1.1" 200 79117
