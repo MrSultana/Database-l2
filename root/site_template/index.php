@@ -4,7 +4,7 @@
 
 	<?php 
 		session_start(); // to allow variable transfer between pages
-		include(config.php); 
+		include("config.php"); 
 
 		// connecting to the database
 		$dbconnect = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
@@ -29,7 +29,7 @@
 		<link href="http://fonts.googleapis.com/css?family=Lato%7cUbuntu"
 		rel="stylesheet">
 		
-		<link rel"stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/data_style.css"> <!--custom style sheet -->
 	</head>
 	
@@ -55,7 +55,8 @@
 				<h2>Welcome</h2>
 				
 				<p>
-					Put link to original dataset here
+					This database contains some of the most popular apps on the appstore.
+					The original dataset can be found at this link: <a href="https://www.kaggle.com/tristan581/17k-apple-app-store-strategy-games/version/1">Original Dataset</a>
 				</p>
 			</div> <!-- / main -->
 			

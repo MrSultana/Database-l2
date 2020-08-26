@@ -4,5 +4,5 @@
     define ("DB_NAME", "game_database");
     define ("DB_USERNAME", "root");
     define ("DB_PASSWORD", "usbw");
-    define_("DB_HOST", "localhost");
+    define ("DB_HOST", "localhost");
 ?>
