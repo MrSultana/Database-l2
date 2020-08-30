@@ -1,11 +1,9 @@
-[Wed Aug 26 17:01:48.232443 2020] [mpm_winnt:notice] [pid 16712:tid 840] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Wed Aug 26 17:01:48.232443 2020] [mpm_winnt:notice] [pid 16712:tid 840] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Wed Aug 26 17:01:48.232443 2020] [core:notice] [pid 16712:tid 840] AH00094: Command line: 'C:\\Users\\eturn\\Documents\\Database-l2/apache2/bin/httpd_usbwv8.exe -d C:/Users/eturn/Documents/Database-l2/apache2'
-[Wed Aug 26 17:01:48.248061 2020] [mpm_winnt:notice] [pid 16712:tid 840] AH00418: Parent: Created child process 9624
-[Wed Aug 26 17:01:49.967150 2020] [mpm_winnt:notice] [pid 9624:tid 644] AH00354: Child: Starting 64 worker threads.
-[Wed Aug 26 17:16:40.020609 2020] [core:warn] [pid 17624:tid 672] AH00098: pid file C:/Users/eturn/Documents/Database-l2/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
-[Wed Aug 26 17:16:40.176810 2020] [mpm_winnt:notice] [pid 17624:tid 672] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Wed Aug 26 17:16:40.176810 2020] [mpm_winnt:notice] [pid 17624:tid 672] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Wed Aug 26 17:16:40.176810 2020] [core:notice] [pid 17624:tid 672] AH00094: Command line: 'C:\\Users\\eturn\\Documents\\Database-l2/apache2/bin/httpd_usbwv8.exe -d C:/Users/eturn/Documents/Database-l2/apache2'
-[Wed Aug 26 17:16:40.192431 2020] [mpm_winnt:notice] [pid 17624:tid 672] AH00418: Parent: Created child process 1108
-[Wed Aug 26 17:16:41.774514 2020] [mpm_winnt:notice] [pid 1108:tid 820] AH00354: Child: Starting 64 worker threads.
+[Mon Aug 31 09:03:02.754338 2020] [mpm_winnt:notice] [pid 2528:tid 844] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Mon Aug 31 09:03:02.754338 2020] [mpm_winnt:notice] [pid 2528:tid 844] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Mon Aug 31 09:03:02.754338 2020] [core:notice] [pid 2528:tid 844] AH00094: Command line: 'C:\\Users\\eturn\\Documents\\Database-l2/apache2/bin/httpd_usbwv8.exe -d C:/Users/eturn/Documents/Database-l2/apache2'
+[Mon Aug 31 09:03:02.769957 2020] [mpm_winnt:notice] [pid 2528:tid 844] AH00418: Parent: Created child process 7928
+[Mon Aug 31 09:03:05.519077 2020] [mpm_winnt:notice] [pid 7928:tid 836] AH00354: Child: Starting 64 worker threads.
+[Mon Aug 31 09:03:29.299942 2020] [:error] [pid 7928:tid 1360] [client ::1:56596] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in C:\\Users\\eturn\\Documents\\Database-l2\\root\\site_template\\showall.php on line 6, referer: http://localhost:8080/site_template/
+[Mon Aug 31 09:03:29.299942 2020] [:error] [pid 7928:tid 1360] [client ::1:56596] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in C:\\Users\\eturn\\Documents\\Database-l2\\root\\site_template\\showall.php on line 7, referer: http://localhost:8080/site_template/
+[Mon Aug 31 09:12:34.712645 2020] [:error] [pid 7928:tid 1352] [client ::1:56897] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in C:\\Users\\eturn\\Documents\\Database-l2\\root\\site_template\\showall.php on line 53, referer: http://localhost:8080/site_template/
+[Mon Aug 31 09:13:11.493572 2020] [:error] [pid 7928:tid 1352] [client ::1:56910] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in C:\\Users\\eturn\\Documents\\Database-l2\\root\\site_template\\showall.php on line 53, referer: http://localhost:8080/site_template/
